@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
 *,
@@ -6,24 +5,23 @@
 *::after {
   padding: 0;
   margin: 0;
-
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
   height: 100vh;
   padding: 35px;
-
   background: rgb(243, 243, 243);
   color: #131313;
   font-family: "Montserrat", sans-serif;
+  background-image: url('file:///C:/Users/nurbe/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/bg-img.jpg');
+  /* background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwsICAgHBwoRCAcHBwoPBwcHCA8ICQcKFBEWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NFSsdHxkrKysrKy0tLSsrKysrKysrKysrKzctNysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALYBFQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAgEDBf/EABYQAQEBAAAAAAAAAAAAAAAAAAARAf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAwIG/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APQraileneHi6VFKEXSoraEVSppQiqVNKEVSppQiqVNKEVW1FbQiqVNKEVSppQiqVNKqRVKmlCKrailCLpUUoRdKitoRVKmlCKpU0oRdEVoRwrailRrF0qKUIulRW0IqlTShFUqaUIulRShF0qKUIulRW0IqlTShFUqaUIulTShFUqaUIqlTShFUqaUIqlTShF0qKUSLpUUoRdEUUjlSppXLaKpU0okVW1FKEXSopQi6VFKEXSppQiqVNKEVW1FKEXSopVIulRW5qEVSppQiqVNKEVSppVIqlTShFVtRShF0qaUSKpU0oRVaigRxrahtRrFUqaUIqlRW0IqlSBFUqaBFUqQIqlSBFVtQBF0qAIulQ0IqlTShFUqaUIqtqKUIulRSqkXSoraEVSppQiqVNKEXWJrQjjW1FK5axdKilCLpUVtCKpU0oRVKmlCKpU0qkVSppQiqJpQihNKEU2oraEVSppQiqVNKEVSppQiqVNKEVSpraEVSppRIqlTShFUTQI5UTSo1ihNKEU2oraEVSppRIqlTShFUTShFCaUIoqaUIqlTSqRVbUUoRYmlCKE0oRRU0oRVKmlCKrailCLE0oRQmlCKomgRypU0qNIqlTShFVtRW0IoTShFCaUIqlTQIqlSBFUqW0I2lZShG1uamlCKpU0oRVKmlCKpU0oRVKmlCKraitoRVKmlEiqVNKEVRNFI5UrKVy1jaVlKEbW1NKJFUqQIqlSBFUqa2hG0rKUI2tqaUIqlTSqRVKmgRVKkCKpUgRVbUNoRVKmlCKpU0oRVKkCKpUlCKomtCOVKmtqNI2lZShG0rKUIoTSiRQmlCKE0oRQmlCKE1tUjRlKEa2ppQiqVNKEVSppQiqVNKEVSppQiqVNKEUJpQihNKEWJoEcmpojuKEgRQkCKEgRQkCKGARowCNakCKEgRQkoRQmlUihNKEU1NAihIEUJKEUJpQihNKEUMYEQVI5dxVKkUiqVLQjaVgEbSsAjaMAjRgEa2pAiqVIEVRLQiqVIEVSpAiipAiqVIEVRIEUMBI0YBGtSKRzpQcuylAClBRowBowBowBowBtKAFKAFKAAAAAAAACg3AQAAAAAFH//2Q=='); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-h1 {
-  margin: 15px 0;
-  font-weight: 900;
-  font-size: 28px;
-  text-align: center;
-}
+
 input {
   transition: 0.5s ease-in-out;
   margin: 10px 0;
@@ -37,7 +35,7 @@ input {
   justify-content: space-between;
   align-items: center;
   height: 10%;
-  margin: 35px 0;
+  margin: 50px 0;
 }
 button {
   margin: 5px;
@@ -58,36 +56,74 @@ form {
   margin: 5px auto;
 }
 form button {
-    background: rgb(51, 182, 187);
-    color: white;
-    border-radius: 2px;  width: 100%;
-    margin: 5px 0;
+  background: #6E88D7;
+  color: white;
+  border-radius: 2px;  width: 100%;
+  margin: 5px 0;
 }
 .start {
-    background: rgb(51, 182, 187);
-    color: white;
-    border-radius: 2px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .break {
-    background: rgb(51, 182, 187);
-    color: white;
-    border-radius: 2px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .reset {
-    background: rgb(51, 182, 187);
-    color: white;
-    border-radius: 2px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .pause {
-  background: rgb(51, 182, 187);
+  background: transparent;
   color: white;
   border-radius: 2px;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;  
 }
 .resume {
-  background: rgb(131, 10, 252);
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;}
+.forum label{
+  font-size: 18px;
+  font-weight: 500;
   color: white;
 }
+.forum input{
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
 .clock {
+  color: white;
   padding: 3px;
   display: flex;
   position: relative;
@@ -95,7 +131,8 @@ form button {
   align-items: center;
   font-weight: bold;
   height: 30%;
-  font-size: 24px;
+  font-size: 40px;
+  font-weight: 600;
 }
 .progress-ring {
   position: absolute;
@@ -108,7 +145,7 @@ form button {
   transition: 0.5s;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
-  stroke: rgb(51, 65, 255);
+  stroke: rgb(255, 255, 255);
 }
 
 
@@ -133,7 +170,7 @@ form button {
 
 @media screen and (min-width: 768px) {
   body {
-    display: grid;
+    /* display: grid; */
     grid-template-areas:
       "head head"
       "clock form"
@@ -145,7 +182,7 @@ form button {
   }
   .clock {
     grid-area: clock;
-    height: 100%;
+    /* height: 100%; */
   }
   h1 {
     grid-area: head;

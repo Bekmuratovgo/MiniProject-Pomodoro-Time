@@ -1,4 +1,3 @@
-
 const el = document.querySelector(".clock");
 const bell = document.querySelector("audio");
 
@@ -7,6 +6,7 @@ const secdiv = document.querySelector(".secs");
 
 const startBtn = document.querySelector(".start");
 localStorage.setItem("btn", "focus");
+
 
 let initial, totalsecs, perc, paused, mins, seconds;
 
@@ -59,3 +59,4 @@ function decremenT() {
     startBtn.style.transform = "scale(1)";
   }
 }
+
