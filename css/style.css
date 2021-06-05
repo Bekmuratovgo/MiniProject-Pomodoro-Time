@@ -56,7 +56,7 @@ form {
   margin: 5px auto;
 }
 form button {
-  background: #6E88D7;
+  background: #609edf;
   color: white;
   border-radius: 2px;  width: 100%;
   margin: 5px 0;
@@ -121,6 +121,9 @@ form button {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 2px;
 }
+.forum{
+  margin-top: 30px;
+}
 
 .clock {
   color: white;
@@ -139,6 +142,8 @@ form button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: blue;
+  border-radius: 50%;
 }
 
 .progress-ring__circle {
@@ -154,6 +159,37 @@ form button {
   stroke: rgb(243, 17, 28);
   animation: pulse 0.9s ease-in-out infinite;
 }
+.open-settings{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+.open-settings img{
+  width: 25px;
+  transition: transform 250ms;
+}
+.open-settings img:hover{
+  transform: translateY(-10px);
+}
+.open-settings a{
+  text-decoration: none;
+  color: white;
+}
+.for-settings{
+  display: flex; 
+  justify-content: flex-end;
+}
+.save-settings a{
+  text-decoration: none;
+  color: white;
+}
+
 
 @keyframes pulse {
   0%,
